@@ -1,0 +1,21 @@
+*, body{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bg-dark{
+    background-color: #3e557a !important;
+}
+
+.welcome{
+    background-color: #010a1d;
+    height: 100vh;
+}
+
+.avatar{
+    width: 250px;
+}
+
+/* .welcome h1{
+
+} */

@@ -1,0 +1,36 @@
+.box{
+    background-color: rgb(255, 0, 43);
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation-name: turun;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes turun{
+    from{
+        top : 0px;
+    }
+    to{
+        top : 300px;
+    }
+}
+
+.box1{
+    background-color: rgb(255, 0, 43);
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation-name: gerak;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes gerak{
+    0%{left: 0px; top: 0px;}
+    25%{left: 0px; top: 300px; background-color: rgb(100, 30, 20);}
+    50%{left: 300px; top: 300px;}
+    75%{left: 300px; top: 0px;}
+    100%{left: 0px; top: 0px;}
+}

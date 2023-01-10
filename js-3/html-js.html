@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS Bootstrap -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+</head>
+<body>
+    <!-- <h1 id="halo">halo</h1>
+    <h3 class="aaa">aaaaaaaa</h3>
+    <h3 class="aaa">aaaaaaaa</h3>
+    <h3>bbbbbbbb</h3>
+
+    <input type="password" name="" id="password">
+
+    <button class="btn btn-primary" onclick="alert('hallo')">
+        Click
+    </button> -->
+
+    <div class="container-fluid m-4">
+        <h1>Form Penjumlahan</h1>
+        <form action="">
+            <!-- <button class="btn btn-primary" onclick="tambah()">Cek</button> -->
+        </form> 
+            <input type="number" id="num1">
+            <input type="number" id="num2">
+            <input type="button" value="tes" onclick="tambah()" class="btn btn-primary">
+        <h1 id="jml">Hasil</h1>
+    </div>
+    
+
+
+    <!-- JS Inline-->
+    <script>
+        // DOM (Document Object Model)
+        // 1. Mengambil dari id
+        // document.getElementById();
+        // 2. Mengambil dari tag name (Ex : h1, P, h3, dsb)
+        // document.getElementByTagName();
+        // 3. Mengambil dari Class Name
+        // document.getElementByClassName();
+
+        // Mengganti Isi HTML
+        // document.getElementById("halo").innerHTML = "Hai";
+
+        // document.getElementsByClassName("aaa")[1].innerHTML = "BBB";
+
+        // document.getElementsByTagName("h3")[2].innerHTML = "CCC";
+
+        // Mengubah Atribut (ex : Name, type, class, dsb)
+        // document.getElementById("password").setAttribute("type", "text");
+        // document.getElementById("password").setAttribute("name", "text");
+
+        function tambah(){
+            let num1 = document.getElementById("num1").value;
+            let num2 = document.getElementById("num2").value;
+
+            let jml = parseInt(num1)+parseInt(num2);
+
+            document.getElementById("jml").innerHTML = jml;
+        }
+    </script>
+
+    <!-- Js Bootstrap -->
+    <script src="assets/js/bootstrap.min.js"></script>
+</body>
+</html>

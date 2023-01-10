@@ -1,0 +1,215 @@
+*{
+    color: #B8E3FF;
+}
+
+.nav{
+    width: auto;
+    height: 60px;
+    background-color: #1C3D52;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    float: right;
+    display: inline;
+}
+
+li a{
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+    font-family: Helvetica;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+li a:hover{
+    background-color: #B8E3FF;
+    color: #1C3D52;
+}
+
+.konten{
+    width: 1517px;
+    height: 640px;
+    margin-left:auto ;
+    margin-right: auto;
+    background:url(img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 1517px;
+}
+
+.tulisan{
+    margin-left: 50px;
+    margin-top: 50px;
+    font-family: Helvetica;
+    float: left;
+    color: #1C3D52;
+}
+
+#form-login{
+    width: 300px;
+    height: 450px;
+    background-color: #1C3D52;
+    float: right;
+    margin-top: 50px;
+    margin-right: 50px;
+    border-radius: 5%;
+}
+
+#masuk{
+    margin-top: 50px;
+    text-align: center;
+    font-family: Helvetica;
+}
+
+.kolom{
+    width: 250px;
+    height: 35px;
+    margin-right: 25px;
+    margin-left: 25px;
+    border: none;
+    border-radius: 5px;
+    font-family: Helvetica;
+    color: #1C3D52;
+}
+
+.tulisan1{
+    margin-bottom: 0px;
+    text-align: center;
+    font-family: Helvetica;
+}
+
+#tombol{
+    display: block;
+    width: 70px;
+    padding: 3px;
+    margin-left: 25px;
+    margin-top: 15px;
+    color: #1C3D52;
+    font-weight: bold;
+    background-color: #B8E3FF;
+    border: 1px;
+    text-align: center;
+    text-decoration: none;
+}
+
+#luppas{
+    text-align: center;
+    font-family: Helvetica;
+    font-weight: lighter;
+    font-size: small;
+}
+
+#drop{
+    font-family: Helvetica;
+}
+
+#drop-down{
+    position: absolute;
+    display: none;
+    background-color: #1C3D52;
+}
+
+#drop:hover #drop-down {
+    display: block;
+}
+
+#profil{
+    width: 450px;
+    height: 150px;
+    margin-top: 10px;
+    float: left;
+    background-color: #d3d7da;
+}
+
+#kelas{
+    width: 450px;
+    height: 455px;
+    background-color: #d3d7da;
+    margin-top: 180px;
+    margin-left: -450px;
+    float: left;
+}
+
+#mapel{
+    width: 550px;
+    height: 625px;
+    background-color: #d3d7da;
+    margin-top: 10px;
+    margin-left: 10px;
+    float: left;
+}
+
+#akan{
+    width: 480px;
+    height: 625px;
+    background-color: #d3d7da;
+    margin-top: 10px;
+    margin-left: 10px;
+    float: left;
+}
+
+#konten{
+    width: 1517px;
+    height: 640px;
+    margin-left:auto ;
+    margin-right: auto;
+}
+
+#foto{
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 25px;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    float: left;
+}
+
+#nama{
+    float: left;
+    margin-left: 25px;
+    margin-top: 50px;
+    font-family: Helvetica;
+    color: #1C3D52;
+    font-weight: bolder;
+}
+
+#lihatprof{
+    float: left;
+    font-family: Helvetica;
+    color: #1C3D52;
+    font-weight: bolder;
+}
+
+.judul{
+    width: auto;
+    height: 60px;
+    background-color: #5585a3;
+}
+
+.judul-text{
+    text-align: center;
+    font-family: Helvetica;
+    color: #1C3D52;
+    font-weight: bolder;
+}
+
+.isian{
+    font-family: Helvetica;
+    color: #1C3D52;
+    margin-left: 20px;
+}
+
+.ganjel{
+    height: 1px;
+}
+.isiconten{
+    margin-top: 20px;
+    width: auto;
+    height: 150px;
+}
